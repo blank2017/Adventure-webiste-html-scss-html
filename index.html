@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- Link Css -->
+    <link rel="stylesheet" href="./Assets/CSS/Styles.css">
+
+    <!-- link font icon -->
+    <link rel="stylesheet" href="./Assets/vendor/FontIcon/fontawesome-free/css/all.css">
+
+    <!-- LINK AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+
+    <!-- START: HEADER -->
+    <header>
+
+        <div class="header__toggle">
+            <i id="toggle" class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="header__logo">
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="#"><i class="fa-solid fa-paint-roller"></i>FanArt</a>
+        </div>
+
+        <nav class="header__menu">
+            <ul>
+                <li><a data-aos="zoom-in-left" data-aos-delay="300" href="#home">Home</a></li>
+                <li><a data-aos="zoom-in-left" data-aos-delay="450" href="#about">About</a></li>
+                <li><a data-aos="zoom-in-left" data-aos-delay="600" href="#destination">Destination</a></li>
+                <li><a data-aos="zoom-in-left" data-aos-delay="750" href="#services">Services</a></li>
+                <li><a data-aos="zoom-in-left" data-aos-delay="900" href="#gallery">Gallery</a></li>
+                <li><a data-aos="zoom-in-left" data-aos-delay="1150" href="#blogs">Blogs</a></li>
+            </ul>
+        </nav>
+
+        <div class="header__btn">
+            <a data-aos="zoom-in-left" data-aos-delay="1300" href="#fanart-form" class="btn">Watch Now</a>
+        </div>
+    </header>
+    <!-- END: HEADER -->
+
+    <!-- START: HOME SECTION -->
+    <section class="home" id="home">
+        <div class="home__content">
+            <span data-aos="fade-up" data-aos-delay="150">Follow Us</span>
+            <h3 data-aos="fade-up" data-aos-delay="300">To The Unknown</h3>
+            <p data-aos="fade-up" data-aos-delay="450">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis fugit ratione quam, debitis cumque ad natus modi voluptatum facere eveniet sequi eaque provident praesentium aliquam repellat. Illum distinctio aut ipsa!</p>
+            <a data-aos="fade-up" data-aos-delay="600" href="#" class="btn">Watch Now</a>
+        </div>
+    </section>
+    <!-- END: HOME SECTION -->
+
+    <!-- START: FAN ART FORM SECTION -->
+    <section class="fanart-form" id="fanart-form">
+        <form action="">
+            <div data-aos="zoom-in" data-aos-delay="150" class="form__input">
+                <span>What Do?</span>
+                <input type="text" placeholder="You Want To Do On FanArt" value="">
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="300" class="form__input">
+                <span>Topics You Like </span>
+                <input type="text" placeholder="Topics" value="">
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="450" class="form__input">
+                <span>Other </span>
+                <input type="text" placeholder="Other" value="">
+            </div>
+            <input data-aos="zoom-in" data-aos-delay="600" type="submit" class="btn" value="find now">
+        </form>
+    </section>
+    <!-- END: FAN ART FORM SECTION -->
+
+    <!-- START: ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="about__video" data-aos="fade-right" data-aos-delay="300">
+            <video src="./Assets/img/Video/vid-1.mp4" muted autoplay class="video"></video>
+            <div class="controls">
+                <span class="control-btn" data-src="./Assets/img/Video/vid-1.mp4"></span>
+                <span class="control-btn" data-src="./Assets/img/Video/vid-2.mp4"></span>
+                <span class="control-btn" data-src="./Assets/img/Video/vid-3.mp4"></span>
+            </div>
+        </div>
+
+        <div class="about__content" data-aos="fade-left" data-aos-delay="300">
+            <span>Why Choose Us?</span>
+            <h3>We Are The Best
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat maxime deleniti assumenda nobis autem aliquam voluptates ex nemo non, molestias nam ad odio iste dolores nihil aperiam illum unde quidem.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <!-- END: ABOUT SECTION -->
+    
+    <!-- START: DESTINATION SECTION -->
+    <section class="destination" id="destination">
+        <div class="heading">
+            <span>Our motto</span>
+            <h1>Where art meets application!</h1>
+        </div>
+
+        <div class="destination__content">
+            <div class="destination__box" data-aos="fade-up" data-aos-delay="150">
+                <div class="destination__img">
+                    <img src="./Assets/img/Services/1-3D.jpg" alt="">
+                </div>
+                <div class="destination__text">
+                    <h3>3D Art</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                    <a href="#">Read More<i class="fa-solid fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="destination__box" data-aos="fade-up" data-aos-delay="300">
+                <div class="destination__img">
+                    <img src="./Assets/img/Services/2-AI art.jpg" alt="">
+                </div>
+                <div class="destination__text">
+                    <h3>AI Art</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                    <a href="#">Read More<i class="fa-solid fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="destination__box" data-aos="fade-up" data-aos-delay="450">
+                <div class="destination__img">
+                    <img src="./Assets/img/Services/3-fantasy.png" alt="">
+                </div>
+                <div class="destination__text">
+                    <h3>Fantasy</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                    <a href="#">Read More<i class="fa-solid fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="destination__box" data-aos="fade-up" data-aos-delay="600">
+                <div class="destination__img">
+                    <img src="./Assets/img/Services/4-gameArt.jpg" alt="">
+                </div>
+                <div class="destination__text">
+                    <h3>Game Art</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                    <a href="#">Read More<i class="fa-solid fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="destination__box" data-aos="fade-up" data-aos-delay="750">
+                <div class="destination__img">
+                    <img src="./Assets/img/Services/5-digitalArt.jpg" alt="">
+                </div>
+                <div class="destination__text">
+                    <h3>Digital Art</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                    <a href="#">Read More<i class="fa-solid fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="destination__box" data-aos="fade-up" data-aos-delay="900">
+                <div class="destination__img">
+                    <img src="./Assets/img/Services/6-drawingPainting.jpg" alt="">
+                </div>
+                <div class="destination__text">
+                    <h3>Drawing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                    <a href="#">Read More<i class="fa-solid fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="destination__box" data-aos="fade-up" data-aos-delay="1150">
+                <div class="destination__img">
+                    <img src="./Assets/img/Services/7-HorrorArt.jpg" alt="">
+                </div>
+                <div class="destination__text">
+                    <h3>Horror Art</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                    <a href="#">Read More<i class="fa-solid fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="destination__box" data-aos="fade-up" data-aos-delay="1300">
+                <div class="destination__img">
+                    <img src="./Assets/img/Services/8-TraditionalArt.jpg" alt="">
+                </div>
+                <div class="destination__text">
+                    <h3>Traditional Art</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                    <a href="#">Read More<i class="fa-solid fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END: DESTINATION SECTION -->
+    
+    <!-- START: SERVICES SECTION -->
+    <section class="services" id="services">
+        <div class="heading">
+            <span>Our Services</span>
+            <h1>fastest and earliest</h1>
+        </div>
+
+        <div class="services__content">
+            <div class="services__box" data-aos="fade-down-right" data-aos-delay="150">
+                <div class="services__icon">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <div class="services__text">
+                    <h3>Worldwide</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                </div>
+            </div>
+
+            <div class="services__box" data-aos="zoom-in-up" data-aos-delay="300">
+                <div class="services__icon">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="services__text">
+                    <h3>Private</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                </div>
+            </div>
+
+            <div class="services__box" data-aos="fade-down-left" data-aos-delay="450">
+                <div class="services__icon">
+                    <i class="fa-solid fa-wallet"></i>
+                </div>
+                <div class="services__text">
+                    <h3>Trademarks</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                </div>
+            </div>
+
+            <div class="services__box" data-aos="fade-down-right" data-aos-delay="600">
+                <div class="services__icon">
+                    <i class="fa-solid fa-copyright"></i>
+                </div>
+                <div class="services__text">
+                    <h3>Copyright</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                </div>
+            </div>
+
+            <div class="services__box" data-aos="zoom-in-up" data-aos-delay="750">
+                <div class="services__icon">
+                    <i class="fa-solid fa-link"></i>
+                </div>
+                <div class="services__text">
+                    <h3>External Links</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                </div>
+            </div>
+            
+            <div class="services__box" data-aos="fade-down-left" data-aos-delay="900">
+                <div class="services__icon">
+                    <i class="fa-solid fa-headset"></i>
+                </div>
+                <div class="services__text">
+                    <h3>24/7 Support</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- START: SERVICES SECTION -->
+
+    <!-- START: GALLERY SECTION -->
+    <section class="gallery" id="gallery">
+        <div class="heading">
+            <span>Our Gallery</span>
+            <h1>Start Watching Some FanArt!</h1>
+        </div>
+
+        <div class="gallery__content">
+            <div class="gallery__box" data-aos="zoom-out" data-aos-delay="150">
+                <img src="./Assets/img/Gallery/1.jpg" alt="">
+                <span>Digital Art</span>
+                <h3>Lighthouse</h3>
+            </div>
+
+            <div class="gallery__box" data-aos="zoom-out-right" data-aos-delay="300">
+                <img src="./Assets/img/Gallery/2.jpg" alt="">
+                <span>Landscape</span>
+                <h3>Snowy Mount Fuji</h3>
+            </div>
+
+            <div class="gallery__box" data-aos="zoom-out-left" data-aos-delay="450">
+                <img src="./Assets/img/Gallery/3.jpg" alt="">
+                <span>AI Art</span>
+                <h3>An Explosion Of Color</h3>
+            </div>
+
+            <div class="gallery__box" data-aos="zoom-out-up" data-aos-delay="600">
+                <img src="./Assets/img/Gallery/4.jpg" alt="">
+                <span>Traditional Art</span>
+                <h3>Rowing On The River</h3>
+            </div>
+
+            <div class="gallery__box" data-aos="zoom-out-down" data-aos-delay="750">
+                <img src="./Assets/img/Gallery/5.jpg" alt="">
+                <span>Traditional Art</span>
+                <h3>Store</h3>
+            </div>
+
+            <div class="gallery__box" data-aos="zoom-out-up" data-aos-delay="900">
+                <img src="./Assets/img/Gallery/7.jpg" alt="">
+                <span>Drawing Art</span>
+                <h3>Portrait</h3>
+            </div>
+
+            <div class="gallery__box" data-aos="zoom-out-left" data-aos-delay="1150">
+                <img src="./Assets/img/Gallery/8.jpg" alt="">
+                <span>Poster</span>
+                <h3>Dream</h3>
+            </div>
+        </div>
+
+    </section>
+    <!-- END: GALLERY SECTION -->
+
+    <!-- START: PAINTER SECTION -->
+    <section class="painter">
+
+        <div class="painter__content" data-aos="fade-right" data-aos-delay="300">
+            <span>The Artist</span>
+            <h3>The artist is followed by many people</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, totam explicabo. Culpa voluptatum voluptate reiciendis nostrum ab aliquam blanditiis id corporis aliquid nihil totam ratione, laboriosam recusandae maxime eius nobis.</p>
+        </div>
+
+        <div class="painter__container">
+            
+            <div class="painter__box" data-aos="fade-down-right" data-aos-delay="300">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, dolorem</p>
+                <div class="painter__user">
+                    <div class="painter__user--avata">
+                    <img src="./Assets/img/Painter/bukoslav.jpg" alt="">
+                </div>
+                <div class="painter__user--info">
+                    <h3>bukoslav</h3>
+                    <span>designer</span>
+                </div>
+            </div>
+
+                </div>
+            <div class="painter__box"data-aos="fade-down-left" data-aos-delay="300">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, dolorem</p>
+                <div class="painter__user">
+                    <div class="painter__user--avata">
+                    <img src="./Assets/img/Painter/athenaryssa.jpg" alt="">
+                </div>
+                <div class="painter__user--info">
+                    <h3>athenaryssa</h3>
+                    <span>designer</span>
+                </div>
+                </div>
+            </div>
+
+            <div class="painter__box" data-aos="fade-up-right" data-aos-delay="300">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, dolorem</p>
+                <div class="painter__user">
+                    <div class="painter__user--avata">
+                    <img src="./Assets/img/Painter/dankushagi.jpg" alt="">
+                </div>
+                <div class="painter__user--info">
+                    <h3>dankushagi</h3>
+                    <span>designer</span>
+                </div>
+                </div>
+            </div>
+
+            <div class="painter__box" data-aos="fade-up-left" data-aos-delay="300">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, dolorem</p>
+                <div class="painter__user">
+                    <div class="painter__user--avata">
+                    <img src="./Assets/img/Painter/flertreynolds.jpg" alt="">
+                </div>
+                <div class="painter__user--info">
+                    <h3>flertreynolds</h3>
+                    <span>designer</span>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- END: PAINTER SECTION -->
+
+    <!-- START: BLOG SECTION -->
+    <section class="blog" id="blog">
+        <div class="heading">
+            <span>Blog & Posts</span>
+            <h1>Where To Share Your Art</h1>
+        </div>
+
+        <div class="blog__content">
+            <div class="blog__box" data-aos="flip-left" data-aos-delay="150">
+                <div class="blog__img">
+                    <img src="./Assets/img/Blog/1.jpg" alt="">
+                </div>
+
+                <div class="blog__text">
+                    <a href="#" class="link">Aesi by Clint Cearley</a>
+                    <p>A marketing piece I did for Magic: The Gathering a few years back that was never used. I recently received permission to go ahead and share it which is great because I am happy with how it turned out</p>
+
+                    <div class="blog__icon">
+                        <a href="#"><i class="fa-solid fa-clock"></i>Dec 30, 2022</a>
+    
+                        <a href="#"><i class="fa-solid fa-user"></i>by ClintCearley</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="blog__box" data-aos="flip-up" data-aos-delay="300">
+                <div class="blog__img">
+                    <img src="./Assets/img/Blog/2.jpg" alt="">
+                </div>
+
+                <div class="blog__text">
+                    <a href="#" class="link">Wasteland Shrine [Shining Nikki]</a>
+                    <p>Background map done for 『Shining Nikki』 game developed by Paper Games. Scene created in the end of 2021. I received permission to publish the work in 2022</p>
+                    
+                    <div class="blog__icon">
+                        <a href="#"><i class="fa-solid fa-clock"></i>Mar 22, 2023</a>
+    
+                        <a href="#"><i class="fa-solid fa-user"></i>by arsenixc</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="blog__box" data-aos="flip-right" data-aos-delay="450">
+                <div class="blog__img">
+                    <img src="./Assets/img/Blog/3.jpg" alt="">
+                </div>
+
+                <div class="blog__text">
+                    <a href="#" class="link">MandelBrowser 230406 091501</a>
+                    <p>The manipulation of the parameters of one or more mathematical formula to produce a digital image-- it is not meant to represent anything in particular just an image</p>
+                    
+                    <div class="blog__icon">
+                        <a href="#"><i class="fa-solid fa-clock"></i>April 7, 2023</a>
+    
+                        <a href="#"><i class="fa-solid fa-user"></i>by Normanexeter</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- END:BLOG SECTION -->
+
+
+    <!-- START: BANNER SECTION -->
+    <section class="banner">
+        <div class="banner__content" data-aos="zoom-in-up" data-aos-delay="300">
+            <span>Let's Start Implementing The Idea</span>
+            <h3>Let's Explode Ideas</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sint labore dolore libero perferendis, officia ipsa tempore magnam quasi placeat iusto. Distinctio quo expedita, necessitatibus enim dicta rerum fuga veritatis.</p>
+            <a href="#fanart-form" class="btn">Get Started</a>
+        </div>
+    </section>
+    <!-- END: BANNER SECTION -->
+
+    <!-- START: FOOTER SECTION-->
+    <footer>
+        <div class="footer__container">
+            <div class="footer__box" data-aos="zoom-in" data-aos-delay="300">
+                <a href="#" class="logo"><i class="fa-solid fa-paint-roller"></i>FanArt</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                
+                <div class="footer__icon--social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer__box" data-aos="zoom-in" data-aos-delay="300">
+                <h3>Quick Links</h3>
+                <a href="#" class="link"><i class="fa-solid fa-arrow-right"></i></i>Home</a>
+                <a href="#" class="link"><i class="fa-solid fa-arrow-right"></i></i>About</a>
+                <a href="#" class="link"><i class="fa-solid fa-arrow-right"></i></i>Services</a>
+                <a href="#" class="link"><i class="fa-solid fa-arrow-right"></i></i>Gallery</a>
+                <a href="#" class="link"><i class="fa-solid fa-arrow-right"></i></i>Blog</a>
+            </div>
+
+            <div class="footer__box" data-aos="zoom-in" data-aos-delay="300">
+                <h3>Contact Us</h3>
+                <p><i class="fa-solid fa-map-location-dot"></i>DaNang, VietNam</p>
+                <p><i class="fa-solid fa-phone"></i>+84123-456-789</p>
+                <p><i class="fa-solid fa-envelope"></i>gaoblack9898@gmail.com</p>
+                <p><i class="fa-solid fa-clock"></i>7:00am - 8:00pm</p>
+            </div>
+
+            <div class="footer__box" data-aos="zoom-in" data-aos-delay="300">
+                <h3>Newsletter</h3>
+                <p>Subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit" value="subscribe" class="btn"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>       
+        </div>
+    </footer>
+    <!-- END: FOOTER SECTION -->
+
+    <!--START: SCRIPT -->
+    <script src="./Assets/js/script.js"></script>
+
+                                <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            offset:150,
+        });
+
+        console.log(AOS)
+    </script>
+
+    <!--END: SCRIPT -->
+</body>
+</html>
